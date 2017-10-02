@@ -1,0 +1,12 @@
+import javax.swing.JFrame;
+
+
+class apples{
+	public static void main(String[] args){
+		Gui arbish = new Gui();
+		arbish.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		arbish.setSize(500,500);
+		arbish.setVisible(true)
+		;
+	}
+}
